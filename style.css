@@ -8,15 +8,36 @@ body {
 
 .top-container {
   display: flex;
+  justify-content: space-around;
+}
+.top-container__main {
+  width: 26%;
+}
+.top-container__main__h1 {
+  font-size: 5rem;
+}
+.top-container__main__image {
+  width: 375px;
+  height: 279px;
+}
+.top-container__main__description {
+  font-size: 1.375rem;
 }
 .top-container__projects {
   display: flex;
+}
+.top-container__projects__image {
+  width: 382px;
+  height: 630px;
 }
 
 .bottom-container {
   display: flex;
 }
 .bottom-container__right-side__data__data-container {
+  display: flex;
+}
+.bottom-container__right-side__bottom-images {
   display: flex;
 }
 
