@@ -6,4 +6,18 @@ body {
   margin: 0;
 }
 
+.top-container {
+  display: flex;
+}
+.top-container__projects {
+  display: flex;
+}
+
+.bottom-container {
+  display: flex;
+}
+.bottom-container__right-side__data__data-container {
+  display: flex;
+}
+
 /*# sourceMappingURL=style.css.map */
